@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Todo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<header class="header">
+    <a href="./index.html"><img src="assets/logo.svg" alt="" class="header-logo"></a>
+    <nav class="header-nav">
+        <div class="header-nav-elem">Проекты</div>
+        <div class="header-nav-elem">Календарь</div>
+        <div class="header-nav-elem">Заметки</div>
+        <div class="header-nav-elem">Настройки</div>
+    </nav>
+    <div id="acc" class="header-acc"><i class="fa-solid fa-user"></i></div>
+</header>
+<main class="content">
+    <div class="sidebar d-none"></div>
+</main>
+<div class="task-form d-none"></div>
 <script src="index.js"></script>
+<script src="https://kit.fontawesome.com/b6789f6ae4.js" crossorigin="anonymous"></script>
 </body>
 </html>

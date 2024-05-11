@@ -1,2 +1,22 @@
 /*Импортирует компонентные стили, а также прописывает шрифты, цвета и прочие общие стили */
 @import url("reset.css");
+@import "widgets/header/header.css";
+@import "widgets/content/content.css";
+@import "widgets/sidebar/sidebar.css";
+@import "widgets/taskForm/taskForm.css";
+html{
+    font-size: 10px;
+    font-family: Bahnschrift;
+}
+
+body{
+    height: 100vh;
+    font-size: 1.6rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-none{
+    display: none !important;
+}

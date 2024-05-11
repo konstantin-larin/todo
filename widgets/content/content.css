@@ -1,1 +1,5 @@
-
+.content{
+    position: relative;
+    background-color: antiquewhite;
+    flex-grow: 1;
+}

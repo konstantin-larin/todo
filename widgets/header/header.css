@@ -1,0 +1,24 @@
+.header{
+    padding: 1rem 4rem;
+    background-color: bisque;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 4rem;
+    height: auto;
+}
+.header-acc{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.header-nav{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
